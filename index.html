@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+     <script defer src="calculator.js"></script>
+</head>
+<body>
+<div id="complete">
+    <h2>Simple Calculator</h2>
+    <div id="body_segment">
+        
+        <input type="text" id="display" value="">
+    
+        <input type="button" onclick="clear_display()" value="C"  class="button" id="clear">
+    
+        <input type="button" onclick="display('*')" value="*" class="button" id="multiplication">
+        <input type="button" onclick="display('/')" value="/" class="button" id="division">
+        <input type="button" onclick="display('-')" value="-" class="button" id="subtraction">
+    
+        <input type="button" onclick="display('9')" value="9" class="button" id="nine">
+        <input type="button" onclick="display('8')" value="8" class="button" id="eight">
+        <input type="button" onclick="display('7')" value="7" class="button" id="seven">
+        <input type="button" onclick="display('+')" value="+" class="button" id="addition"> 
+        <input type="button" onclick="display('6')" value="6" class="button" id="six">
+        <input type="button" onclick="display('5')" value="5" class="button" id="five">
+        <input type="button" onclick="display('4')" value="4" class="button" id="four">
+        <input type="button" onclick="display('3')" value="3" class="button" id="three">
+        <input type="button" onclick="display('2')" value="2" class="button" id="two">
+        <input type="button" onclick="display('1')"  class="button" id="one" value="1">
+    
+        <input type="button" onclick="calculate()" value="=" class="button" id="equal">
+       
+        <input type="button" onclick="display('.')" value="." class="button" id="point">
+    
+        <input type="button" onclick="display('0')" value="0" class="button" id="zero">
+        
+        <input type="button" onclick="backspace()" value="BS" class="button" id="back">
+    </div>
+</div>
+
+</body>
+</html>
